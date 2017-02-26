@@ -12,8 +12,8 @@ namespace OptionalParameters
     
         static void Main(string[] args)
         {
-            Transformer t = Square;
-            int result = t(3);
+            Transformer t = Square; //Create a delegate instance
+            int result = t(3); //Invoke a delegate
             Console.WriteLine(result);
         }
 
@@ -21,5 +21,10 @@ namespace OptionalParameters
         {
             return x*x;
         }
+    }
+
+    public class Employee
+    {
+       
     }
 }
