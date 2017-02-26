@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace OptionalParameters
 {
     internal delegate int Transformer(int x);
-    class Program
+
+    static class Program
     {
     
         static void Main(string[] args)
